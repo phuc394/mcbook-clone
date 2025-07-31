@@ -1,8 +1,8 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+   
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -68,6 +68,9 @@ input {
     border-radius: 12px;
 }
 
+input:focus {
+    outline: none;
+}
 .cart {
     width: 32px;
     height: 32px;   
@@ -100,6 +103,7 @@ input {
 .user:hover {
     background-color: #0071B3;
 }
+
 .nav {
     overflow: hidden;
 }
@@ -192,8 +196,157 @@ input {
 }
 
 .category {
-    padding: 30px 40px 40px 360px;
+    padding: 30px 40px 30px 360px;
     color: white;
 }
 
+.content {
+    width: 100%;
+    height: 900px;
+    background-color: #F4F7F9;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
 
+
+.side-bar {
+    width: 15%;
+    height: 800px;
+    background-color: white;
+    margin-left: 350px;
+    margin-top: 5px;
+}
+
+.book-category {
+    border-radius: 12px;
+    padding-top: 1px;
+    height: 900px;
+    width: 250px;
+}
+
+.book-category h2 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.book-category ul {
+    list-style: none;
+    padding-left: 12px;
+    
+}
+
+.book-category ul li {
+    margin: 20px 0 0 10px;
+}
+
+.book-category ul li a {
+    text-decoration: none;
+    color: #383434;
+    font-size: 16px;
+}
+
+.book-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.cover-best {
+    width: 60px;
+    height: 70px;
+}
+
+.book-info {
+    padding-top: 50px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-price {
+    font-size: large;
+    color: red;
+}
+
+.book-title:hover {
+    color: #008AE6;
+}
+
+.book-detail {
+    padding: 12px 300px 0 30px;
+    font-size: large;
+}
+
+.book-details {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(173, 27, 27);
+    text-align: center;
+}
+
+.book-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+}
+
+.cover-list {
+    width: 200px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.book-details-title {
+    font-size: 15px;
+    color: #005D9B;
+}
+
+.buy-button {
+    width: 150px;
+    height: 60px;
+    background-color: #008AE6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add {
+    padding-right: 10px;
+    margin-top: 400px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color:#ffffff;
+    background-color:#0071BC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cus {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
